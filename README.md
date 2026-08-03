@@ -21,11 +21,20 @@ When using this implementation in your research, please cite the following paper
   keywords={Accuracy;Three-dimensional displays;Image reconstruction;Depth measurement;Costs;Cameras;Surface texture;Reliability;Surface reconstruction;Pipelines;Checkerboard propagation;multi-scale patchmatch;multi-view stereo;structured region information;confidence-guided geometric consistency;texture-less regions},
   doi={10.1109/ACCESS.2025.3569913}}
 ```
+## System Requirements
+The implementation has been tested using:
+* Windows 11
+* Microsoft Visual Studio 2017
+* NVIDIA GeForce RTX 2060
+* CUDA 11.x
+* OpenCV 3.3 or later
+* CMake 3.18 or later
 ## Dependencies
-The code has been tested on Windows 11 on Visual Studio 2017 with RTX2060.  
+The code has been tested on Windows 11 using Visual Studio 2017 with an RTX 2060.  
 * [Cuda](https://developer.nvidia.com/zh-cn/cuda-downloads) >= 11.0
 * [OpenCV](https://opencv.org/) >= 3.3
 * [cmake](https://cmake.org/)
+* Microsoft Visual Studio 2017 with C++ development tools
 ## Usage
 * Compile OPM-MVS
 ```  
@@ -45,4 +54,9 @@ Our OPM-MVS results are published on [ETH3D dataset] (https://www.eth3d.net/resu
 ## Results on Tanks and Temples Dataset
 Our OPM-MVS results are published on [Tanks and Temples dataset](https://www.tanksandtemples.org/)
 ## Acknowledgements
-This code largely benefits from the following repositories: Special thanks to Qingshan Xu [ACMM](https://github.com/GhiXu/ACMM), [Gipuma](https://github.com/kysucix/gipuma) and [COLMAP](https://colmap.github.io/). Thanks to their authors for opening source of their excellent works.
+This implementation benefited substantially from the following open-source projects:
+* [ACMM](https://github.com/GhiXu/ACMM), developed by Qingshan Xu and collaborators
+* [Gipuma](https://github.com/kysucix/gipuma), and
+* [COLMAP](https://colmap.github.io/).
+
+We thank the authors for making the source code publicly available and for being able to contribute. 

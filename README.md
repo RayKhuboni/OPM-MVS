@@ -1,3 +1,6 @@
+# Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS) 
+The official implementation of 'Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS)' is released here. This paper has been accepted for publication in IEEE Access 2025. OPM-MVS
+
 # OPM-MVS
 [News] The code for [OPM-MVS](https://github.com/RayKhuboni/OPM-MVS) is released!!!  
 

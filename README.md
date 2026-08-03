@@ -35,17 +35,7 @@ The code has been tested on Windows 11 using Visual Studio 2017 with an RTX 2060
 * [OpenCV](https://opencv.org/) >= 3.3
 * [cmake](https://cmake.org/)
 * Microsoft Visual Studio 2017 with C++ development tools
-## Usage
-* Compile OPM-MVS
-```  
-cmake  
-make
-```
-* Test 
-``` 
-Use script colmap2mvsnet_acm.py to convert COLMAP SfM result to ACMM input   
-Run ./OPM-MVS $data_folder to get reconstruction results
-```
+
 ## Results on high-res ETH3D training dataset [2cm]
 Our OPM-MVS results are published on [ETH3D dataset] (https://www.eth3d.net/result_details?id=1131)
 | Mean   | courtyard | delivery_area | electro | facade | kicker | meadow | office | pipes  | playgroud | relief | relief_2 | terrace | terrains |

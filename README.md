@@ -5,7 +5,10 @@ The official implementation of 'Octagram Propagation Matching for Multi-Scale Vi
 [News] The code for [OPM-MVS](https://github.com/RayKhuboni/OPM-MVS) is released!!!  
 
 ## About
-[OPM-MVS](https://ieeexplore.ieee.org/abstract/document/11003953) is a Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS). If you find this project useful for your research, please cite:  
+OPM-MVS is a PatchMatch-based multi-view stereo method that uses octagram propagation matching, multi-scale processing, structured region information, and confidence-guided geometric consistency to improve dense 3D reconstruction, particularly in textureless and geometrically challenging regions. 
+
+When using this implementation in your research, please cite the following paper:
+[OPM-MVS](https://ieeexplore.ieee.org/abstract/document/11003953)  
 ```
 @ARTICLE{11003953,
   author={Khuboni, Ray L. and Xu, Hongjun},

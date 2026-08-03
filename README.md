@@ -1,12 +1,11 @@
 # Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS)
-Official implementation of 'Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS)' will be released soon. This paper has been accepted for publication in IEEE Access 2025.
-
+The official implementation of 'Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS)' is released here. This paper has been accepted for publication in IEEE Access 2025.
 
 # OPM-MVS
 [News] The code for [OPM-MVS](https://github.com/RayKhuboni/OPM-MVS) is released!!!  
 
 ## About
-[OPM-MVS](https://ieeexplore.ieee.org/abstract/document/11003953) is a Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS). If you find this project useful for your research, please cite:  
+[OPM-MVS](https://ieeexplore.ieee.org/abstract/document/11003953) is an Octagram Propagation Matching for Multi-Scale View Stereopsis (OPM-MVS). If you find this project useful for your research, please cite:  
 ```
 @ARTICLE{11003953,
   author={Khuboni, Ray L. and Xu, Hongjun},
@@ -27,7 +26,7 @@ The code has been tested on Windows 11 on Visual Studio 2017 with RTX2060.
 ## Usage
 * Compile OPM-MVS
 ```  
-cmake .  
+cmake.  
 make
 ```
 * Test 
@@ -43,4 +42,4 @@ Our OPM-MVS results are published on [ETH3D dataset] (https://www.eth3d.net/resu
 ## Results on Tanks and Temples Dataset
 Our OPM-MVS results are published on [Tanks and Temples dataset](https://www.tanksandtemples.org/)
 ## Acknowledgements
-This code largely benefits from the following repositories: Special thanks to Qingshan Xu [ACMM](https://github.com/GhiXu/ACMM), [Gipuma](https://github.com/kysucix/gipuma) and [COLMAP](https://colmap.github.io/). Thanks to their authors for opening source of their excellent works.
+This code largely benefits from the following repositories: Special thanks to Qingshan Xu [ACMM](https://github.com/GhiXu/ACMM), [Gipuma](https://github.com/kysucix/gipuma), and [COLMAP](https://colmap.github.io/). Thanks to their authors for making the source code of their excellent works available.
